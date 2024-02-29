@@ -205,7 +205,7 @@ def enviar_player_stats(schema_target):
 engine = criar_engine()
 
 # criar schema
-schema = "gislaine"
+schema = "nba_datasets"
 dml.create_schema(schema)
 
 # popular o schema
