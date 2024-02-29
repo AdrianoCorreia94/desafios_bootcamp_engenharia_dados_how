@@ -1,1 +1,4 @@
 *.DS_Store
+.DS_Storte
+desafio_01/db/script/aplicativo.py
+.gitignore
