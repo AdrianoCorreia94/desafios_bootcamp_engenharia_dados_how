@@ -187,8 +187,6 @@ def enviar_player_stats(schema_target):
     # data do registro
     df_player_stats['date'] = datetime.now()
 
-    print(df_player_stats.head(10))
-
     chunksize = 500
 
     df_player_stats.to_sql(
