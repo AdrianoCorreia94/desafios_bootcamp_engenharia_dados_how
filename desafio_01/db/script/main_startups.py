@@ -32,5 +32,6 @@ def enviar_startups(schema_target):
 
 engine = criar_engine()
 
-schema_target = "teste"
+schema_target = "startups"
 dml.create_schema(schema_target)
+enviar_startups(schema_target)
